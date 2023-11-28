@@ -15,7 +15,7 @@ public class Tarea3GIT {
     int numeroDentroIntervalo = Integer.parseInt(sc.nextLine());
     
     Random generadorNumeros = new Random();
-    for (int i = 0; i <= segundoIntervalo; i+= 7) {
+    for (int i = 0; i <= segundoIntervalo; i+= 9) {
       double numeroAleatorio = (generadorNumeros.nextDouble() * (segundoIntervalo - primerIntervalo)) + primerIntervalo;
       System.out.println(numeroAleatorio);
     }
@@ -25,7 +25,5 @@ public class Tarea3GIT {
     } else {
       System.out.println("El número " + numeroDentroIntervalo + " no está dentro del intervalo");
     }
-    
   }
-
 }
